@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./fondo_de_pantalla_de_hora_de_aventura_by_yueabdiel304_dg5e76o-fullview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gainsboro;
+    
+
+}
+
+.header__profesional-image-container {
+    
+    width: 300px;
+    height: 300px;
+    background-image: url(./photo_2023-11-06_16-34-47.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+main {
+    background-color: hsla(222, 14%, 15%, 0.75);
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 400px;
+    height: 500px;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    gap: 0.5rem;    
+}
+.article {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    gap:0rem;  
+}
+.article_title {
+    font-size: 1.5rem;
+}
+.article_designer {
+    font-size: 1.1rem;
+}
+.article_developer {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.article_developer::before {
+    content: '♥' ;
+}
+.article_developer::after {
+    content: '♥' ;
+}
+
+.footer_linke {
+    border-radius: 50px;
+    height: 30px;
+
+} 
+.footer_insta {
+    border-radius: 50px;
+    height: 30px;
+}
+.footer_git {
+    border-radius: 50px;
+    height: 30px;
+}
+.footer_youtube {
+    border-radius: 50px;
+    height: 30px;
+}
